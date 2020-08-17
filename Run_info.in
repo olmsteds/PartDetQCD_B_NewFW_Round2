@@ -25,7 +25,7 @@ ApplyHEMVeto2018 true
 
 /// ------ MC Gen-level cuts ------///
 /// --- HT filter --- ///
-DiscrByGenHT false
+DiscrByGenHT true
 LowerGenHtCut 0.0
 UpperGenHtCut 100.0
 
@@ -35,8 +35,8 @@ GenDilepMassRange 80.0 100.0
 
 /// ------ Triggers ----- ///
 
-Trigger1FirstRequirement HLT_DoubleMediumIsoPFTau
-Trigger1SecondRequirement HLT_DoubleMediumCombinedIsoPFTau
+Trigger1FirstRequirement HLT_DoubleMediumChargedIsoPFTau
+Trigger1SecondRequirement HLT_DoubleMediumChargedIsoPFTau
 UseTriggerWildcard true
 
 /// Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg
